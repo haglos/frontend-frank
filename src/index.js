@@ -14,7 +14,7 @@ import { userAuthReducer } from "./store/reducer/userAppStorage"
 //import ErrorBoundary from "./screens/Error/Error"
 //configuring the redux store
 const rootReducer = combineReducers({
-  userAuth: userAuthReducer,np
+  userAuth: userAuthReducer,
 })
 //creating store
 const store = createStore(rootReducer, applyMiddleware(thunk))
